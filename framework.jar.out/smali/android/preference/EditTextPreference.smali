@@ -174,7 +174,9 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {v0}, Landroid/widget/EditText;->getParent()Landroid/view/ViewParent;
+    invoke-direct/range {p0 .. p0}, Landroid/preference/EditTextPreference;->setFlymeEditTextSelection()V
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
