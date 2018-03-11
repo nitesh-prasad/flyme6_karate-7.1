@@ -208,7 +208,7 @@
     <bool name="config_pinnerCameraApp">true</bool>
     <bool name="config_useRoundIcon">false</bool>
     <bool name="config_allowDisablingAssistDisclosure">false</bool>
-    <bool name="config_supportSystemNavigationKeys">false</bool>
+    <bool name="config_supportSystemNavigationKeys">true</bool>
     <bool name="config_focusScrollContainersInTouchMode">false</bool>
     <bool name="config_permissionReviewRequired">false</bool>
     <bool name="config_show_cmIMESwitcher">true</bool>
