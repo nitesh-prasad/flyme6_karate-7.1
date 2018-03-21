@@ -4347,8 +4347,6 @@
 
     .prologue
     
-    invoke-static/range {p1 .. p1}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->applyFlymeOomAdjLocked(Lcom/android/server/am/ProcessRecord;)V
-    
     const/16 v25, 0x1
 
     .local v25, "success":Z
@@ -107851,8 +107849,6 @@
     invoke-virtual {v5, v7}, Lcom/android/server/am/ActivityManagerService$MainHandler;->post(Ljava/lang/Runnable;)Z
 
     :cond_3c
-    
-    invoke-static/range {p0 .. p0}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->updateFlymeOomAdjLocked(Lcom/android/server/am/ActivityManagerService;)V
     
     return-void
 
