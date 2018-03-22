@@ -3723,6 +3723,7 @@
 
     and-int/lit8 p3, p3, -0x5
 
+    :cond_1
     goto :goto_flyme_0
 
     :cond_1
