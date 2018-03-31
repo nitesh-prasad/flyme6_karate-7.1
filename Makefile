@@ -93,7 +93,7 @@ vendor_modify_jars := com.qti.dpmframework framework qti-telephony-common servic
 # The default value is nothing.
 # You can configure the board system apk name in the value.
 #-----------------------------------------------------------------------------
-board_remove_apps := LogReport NfcNci
+board_remove_apps := LogReport NfcNci OperaMax
 
 ##############################################################################
 # The value decides which apk you want to modify, when the apk is based on the board system apk.
