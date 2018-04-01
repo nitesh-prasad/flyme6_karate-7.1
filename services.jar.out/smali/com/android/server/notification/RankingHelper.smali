@@ -1832,6 +1832,8 @@
     move-result v7
 
     iput v7, v3, Lcom/android/server/notification/RankingHelper$Record;->visibility:I
+    
+    invoke-direct {p0, p1, v3}, Lcom/android/server/notification/RankingHelper;->readFlymeExtraFields(Lorg/xmlpull/v1/XmlPullParser;Lcom/android/server/notification/RankingHelper$Record;)V
 
     const-string v7, "sound-timeout"
 
@@ -1844,8 +1846,6 @@
     int-to-long v8, v7
 
     iput-wide v8, v3, Lcom/android/server/notification/RankingHelper$Record;->soundTimeout:J
-    
-    invoke-direct {p0, p1, v3}, Lcom/android/server/notification/RankingHelper;->readFlymeExtraFields(Lorg/xmlpull/v1/XmlPullParser;Lcom/android/server/notification/RankingHelper$Record;)V
 
     goto/16 :goto_0
 
