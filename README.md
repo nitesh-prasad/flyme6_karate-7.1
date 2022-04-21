@@ -6,6 +6,8 @@ Based on **LineageOS-14.1** (Android 7 Nougat) for karate (K6 Power)
 
 **Author:** nitesh9 (Nitesh Prasad)
 
+Learn more about FlymeOS Patchrom: https://github.com/FlymeOS
+
 Basic   | Spec Sheet
 -------:|:-------------------------
 Device  | Lenovo K6 Power
